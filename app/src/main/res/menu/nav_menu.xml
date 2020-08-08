@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navLogin"
+            android:checkable="false"
+            android:icon="@drawable/ic_login"
+            android:title="@string/login" />
+        <item
+            android:id="@+id/navWishList"
+            android:checkable="false"
+            android:icon="@drawable/ic_wish_list"
+            android:title="@string/wish_list" />
+        <item
+            android:id="@+id/navOffline"
+            android:checkable="false"
+            android:icon="@drawable/ic_signal_wifi_off"
+            android:title="@string/offline" />
+        <item
+            android:id="@+id/navSignOut"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/sign_out" />
+    </group>
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/navAbout"
+                android:checkable="false"
+                android:icon="@drawable/ic_info"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/navContact"
+                android:checkable="false"
+                android:icon="@drawable/ic_call_black"
+                android:title="@string/contact" />
+
+            <item
+                android:id="@+id/navHelp"
+                android:checkable="false"
+                android:icon="@drawable/ic_help"
+                android:title="@string/help" />
+
+        </menu>
+    </item>
+
+</menu>
